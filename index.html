@@ -1,0 +1,112 @@
+<html>
+   <!-- this is a change  -->
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+        
+        
+    </head>
+    
+
+    <body>
+
+        <div class="scroll">
+            
+
+            <div class="bg-container">
+                <!-- <img id="castle" src="images/castleslice2.png" media="(min-width: 601px)"> -->
+
+                <picture class="castle">
+                    <source srcset="images/mobileslice.png" media="(max-width: 600px)" style="width: 100%">
+                    <source srcset="images/colorslice.png" media="(max-width: 1500px)" style="width: 100%">
+                    <source srcset="images/colorslice.png" style="width: 100%">
+                    <img src="images/mobileslice.png" alt="images/castleslice2.png" style="width: 100%">
+                </picture>
+                
+
+                <div id="scrollToAbout"></div>
+
+                <div id="aboutMe">
+                    <h1>About Me</h1>
+                    <p>Originally hailing from the San Francisco Bay Area where I apprenticed with and worked alongside a professional mural artist, I pivoted to the digital realm upon relocating to Portland, Oregon. <br> I am an enthusiastic problem-solver who will bring pixel perfection and a dollop of charisma to any project, team, or tea party!    </p>
+                    
+                    
+                </div>
+                <button id="aboutShield" onclick="aboutOn()"></button>
+                <button id=workShield onclick="workOn()"></button>
+                <button id=contactShield onclick="contactOn()"></button>
+                <button id="flag4Shield" onclick="flag4On()"></button>
+
+                
+
+
+                <div id="scrollToWork"></div>
+
+                <div id="myWork">
+                    <h1>My Work</h1>
+                    <p>this is whatever</p>
+                </div>
+
+
+                <div id="scrollToContact"></div>
+
+                <div id="contactMe">
+                    <h1>Contact Me</h1>
+                    <p>this is whatever</p>
+                </div>
+
+                <div id="scrollToFlag4"></div>
+                
+                <div id="flag4">
+                    <h1>TBD</h1>
+                    <p>this is whatever</p>
+                </div>
+
+            </div>
+
+            <button id="about" onclick="aboutScroll()">
+            </button>
+
+            <button id="work" onclick="workScroll()">
+
+            </button>
+
+            <button id="contact" onclick="contactScroll()">
+
+            </button>
+
+            <button id="flag4btn" onclick="flag4Scroll()">
+
+            </button>
+            
+            <button id="topbtn" onclick="topScroll()"> 
+            </button>
+
+            <div id="aboutOverlay">
+
+                <div id="aboutOverlayContainer">
+                    <button id="aboutOverlayClose" onclick="aboutClose()">
+                    </button>
+                    <div id="aboutOverlayPic">
+                        <img src="images/portrait.jpg" id="portraitimg" >
+                    </div>
+                    <div id="aboutOverlayText">   
+                        <h1 class="overlayH">About Me</h1>
+                        <p class="overlayP">Here we will have some fun aencdotes and stories or something. Make it fun and playful, because the "my work" section will contain more info about professional stuff. <br> We want a decent amount of text bu tnot too much.</p>
+                    </div>
+                   
+                </div>
+        </div>
+
+        
+
+        </div> 
+        
+
+    </body>
+
+<script src="js/index.js"></script>
+</html>

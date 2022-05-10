@@ -1,0 +1,463 @@
+html, body {
+    margin: 0;
+    height:100%;
+    background-color: #EAF8FF;
+    
+    }
+    
+html {
+    scroll-behavior: smooth;
+}              
+    
+    .bg-container {
+        margin: 0%;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    #about {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorabout.png");
+        position: fixed;
+        top: 5%;
+        left: 66%;
+        height: 8%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+        }
+    
+    #about:hover {
+        background-image: url("/images/colorabout2.png");
+        background-repeat: no-repeat;
+        height: 8%;
+        width: 5%;
+        
+    }
+
+    #about:active {
+        background-image: url("/images/colorabout3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #aboutShield {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/shield1.png");
+        position: absolute;
+        margin-top: 117.75%;
+        left: 23.75%;
+        height: 5%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+        }
+
+    
+    
+    #aboutShield:hover {
+        background-image: url("/images/shield1hover.png");
+        background-repeat: no-repeat; 
+    
+    } 
+
+    #aboutOverlay {
+        position: fixed;
+        display: none;
+        width: 100%; 
+        height: 100%; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7); 
+        z-index: 3; 
+      }
+
+     #aboutOverlayContainer {
+         display:flex;
+        position:relative;
+         margin-top: 5%;
+         margin-left:10%;
+         width: 80%;
+         height:80%; 
+         background-color: #ECECEC;
+         /* border: 3px solid black; */
+     }
+
+     #aboutOverlayPic {
+        position:absolute;
+        width:50%;
+        height:100%;
+        /* border: 3px solid blue;   */
+
+     }
+      
+    #portraitimg {
+        position: relative;
+        display:block;
+        max-width:90%;
+        max-height:80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        border-radius: 2%;
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+
+    } 
+
+    #aboutOverlayText{
+        width:50%;
+        /* border: 3px solid red; */
+        position: absolute;
+        margin-left:47%;
+        
+    }
+
+    .overlayH {
+     text-align: center;
+     margin-top: 10%;
+        
+    }
+    .overlayP {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #aboutOverlayClose {
+        background-image: url("/images/x.png");
+        background-repeat: no-repeat;
+        background-color: #0000;
+        background-size: contain;
+        position: relative;
+        width: 4%;
+        height: 4%;
+        border: none;
+        z-index: 4;
+        left: 96%;
+        top: 1%;
+       
+        
+
+
+    }
+
+    #aboutOverlayClose:hover {
+        background-image: url("/images/xhover.png");
+        cursor: pointer;
+    }
+
+
+
+
+    
+    
+    #work {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorwork.png");
+        position: fixed;
+        top: 5%;
+        left: 74%;
+        height: 8%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        
+        }
+    
+    #work:hover {
+        background-image: url("/images/colorwork2.png");
+        background-repeat: no-repeat;
+        height: 8%;
+        width: 5%;
+        
+    }
+
+    #workShield {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/shield2.png");
+        position: absolute;
+        margin-top: 188%;
+        left: 72%;
+        height: 5%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+        }
+
+    
+    
+    #workShield:hover {
+        background-image: url("/images/shield2hover.png");
+        background-repeat: no-repeat; 
+    }
+
+    #work:active {
+        background-image: url("/images/colorwork3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    
+
+
+    #contact {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorcontact.png");
+        position: fixed;
+        top: 5%;
+        left: 82%;
+        height: 8%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        }
+        
+    #contact:hover {
+        background-image: url("/images/colorcontact2.png");
+        background-repeat: no-repeat;
+        height: 8%;
+        width: 5%;
+    }
+
+    #contact:active {
+        background-image: url("/images/colorcontact3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #contactShield {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/shield2.png");
+        position: absolute;
+        margin-top: 330%;
+        left: 24%;
+        height: 5%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+        }
+    
+    #contactShield:hover {
+        background-image: url("/images/shield3hover.png");
+        background-repeat: no-repeat; 
+    }
+
+
+
+
+    #flag4btn {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/about1.png");
+        position: fixed;
+        top: 5%;
+        left: 90%;
+        height: 8%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        }
+    
+    #flag4btn:hover {
+        background-image: url("/images/about2.png");
+        background-repeat: no-repeat;
+        height: 8%;
+        width: 5%;
+
+        
+    }
+
+    #flag4btn:active {
+        background-image: url("/images/about3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #flag4Shield {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/shield2.png");
+        position: absolute;
+        margin-top: 401%;
+        left: 71.5%;
+        height: 5%;
+        width: 5%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+    }
+
+    #flag4Shield:hover {
+        background-image: url("/images/shield2hover.png");
+        background-repeat: no-repeat; 
+    }
+
+
+    
+    #topbtn {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorbacktotop1.png");
+        position: fixed;
+        top: 88%;
+        left: 88%;
+        height: 12%;
+        width: 12%;
+        border: none;
+        cursor: pointer;
+        transition-duration: 600ms;
+        /* border: 3px solid black; */
+        
+        }
+    
+    #topbtn:hover {
+        position: fixed;
+        background-image: url("/images/colorbacktotop2.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+    }
+
+    #topbtn:active {
+        background-image: url("/images/colorbacktotop3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+    
+    
+    h1 {
+        font-family: 'Bad Script', cursive;
+       font-size: 3vw;
+       /* border: 3px solid black; */
+    }
+    
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: lighter;
+        font-size:1.7vw;
+        /* border: 3px solid black; */
+        margin-top: -7%;
+    }
+    
+.scroll {
+position: relative;
+width: 100%;
+}
+
+#aboutMe {
+    position: absolute;
+    margin-top:-375%;
+    margin-left: 10%;
+    width:31%;
+    
+    /* border: 3px solid black; */
+    text-align: center;
+  
+}
+
+#scrollToAbout {
+    position: absolute;
+    margin-top:-382%;
+    margin-left: 10%;
+    width:30%;
+     
+}
+
+
+#myWork {
+    position: absolute;
+    margin-top:-304%;
+    margin-left: 58%;
+    width:30%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToWork {
+    position: absolute;
+    margin-top:-311%;
+    margin-left: 58%;
+    width:30%;
+    
+}
+
+#contactMe {
+    width: 30%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -162%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToContact {
+    position: absolute;
+    margin-top:-168.5%;
+    margin-left: 10%;
+    width:30%;
+     
+}
+
+#flag4 {
+    position: absolute;
+    margin-top:-91%;
+    margin-left: 58%;
+    width:30%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToFlag4 {
+    position: absolute;
+    margin-top:-97.5%;
+    margin-left: 58%;
+    width:30%;
+     
+}
+
