@@ -25,10 +25,10 @@ html {
         background-color: #0000;
         background-image: url("/images/colorabout.png");
         position: fixed;
-        top: 5%;
-        left: 66%;
-        height: 8%;
-        width: 5%;
+        top: 35px;
+        right: 300px;
+        width: 70px;
+        height: 34px;
         border: none;
         cursor: pointer;
         /* border: 3px solid black; */
@@ -37,8 +37,8 @@ html {
     #about:hover {
         background-image: url("/images/colorabout2.png");
         background-repeat: no-repeat;
-        height: 8%;
-        width: 5%;
+        width:70px;
+        height: 57px;
         
     }
 
@@ -54,12 +54,12 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/shield1.png");
+        background-image: url("/images/learnMore1.png");
         position: absolute;
-        margin-top: 117.75%;
-        left: 23.75%;
-        height: 5%;
-        width: 5%;
+        margin-top: 117%;
+        right:67.5%;
+        width: 14%;
+        height: 7.5%;
         border: none;
         cursor: pointer;
         /* border: 3px solid black; */
@@ -68,7 +68,7 @@ html {
     
     
     #aboutShield:hover {
-        background-image: url("/images/shield1hover.png");
+        background-image: url("/images/learnMore2.png");
         background-repeat: no-repeat; 
     
     } 
@@ -82,8 +82,11 @@ html {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.7); 
+        background-color:rgba(255,255,255, 0.75);
+    
+        /* background-color: rgba(0,0,0,0.7);  */
         z-index: 3; 
+        /* border: 3px solid blue; */
       }
 
      #aboutOverlayContainer {
@@ -93,7 +96,8 @@ html {
          margin-left:10%;
          width: 80%;
          height:80%; 
-         background-color: #ECECEC;
+         background-color: #C29596;
+         border-radius: 5px;
          /* border: 3px solid black; */
      }
 
@@ -113,7 +117,8 @@ html {
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
-        border-radius: 2%;
+        border-radius: 5%;
+        border: solid 10px white;
         
         
         
@@ -170,20 +175,16 @@ html {
     }
 
 
-
-
-    
-    
     #work {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
         background-image: url("/images/colorwork.png");
         position: fixed;
-        top: 5%;
-        left: 74%;
-        height: 8%;
-        width: 5%;
+        top: 35px;
+        right: 220px;
+        height: 34px;
+        width: 70px;
         border: none;
         cursor: pointer;
         
@@ -192,8 +193,8 @@ html {
     #work:hover {
         background-image: url("/images/colorwork2.png");
         background-repeat: no-repeat;
-        height: 8%;
-        width: 5%;
+        height: 57px;
+        width: 70;
         
     }
 
@@ -201,12 +202,12 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/shield2.png");
+        background-image: url("/images/seeExamples1.png");
         position: absolute;
-        margin-top: 188%;
-        left: 72%;
-        height: 5%;
-        width: 5%;
+        margin-top: 187%;
+        right: 19%;
+        width: 14%;
+        height: 10%;
         border: none;
         cursor: pointer;
         /* border: 3px solid black; */
@@ -215,7 +216,7 @@ html {
     
     
     #workShield:hover {
-        background-image: url("/images/shield2hover.png");
+        background-image: url("/images/seeExamples2.png");
         background-repeat: no-repeat; 
     }
 
@@ -236,10 +237,10 @@ html {
         background-color: #0000;
         background-image: url("/images/colorcontact.png");
         position: fixed;
-        top: 5%;
-        left: 82%;
-        height: 8%;
-        width: 5%;
+        top: 35px;
+        right: 140px;
+        height: 34px;
+        width: 70px;
         border: none;
         cursor: pointer;
         }
@@ -247,8 +248,8 @@ html {
     #contact:hover {
         background-image: url("/images/colorcontact2.png");
         background-repeat: no-repeat;
-        height: 8%;
-        width: 5%;
+        height: 57px;
+        width: 70px;
     }
 
     #contact:active {
@@ -263,7 +264,7 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/shield2.png");
+        background-image: url("/images/colorshield3.png");
         position: absolute;
         margin-top: 330%;
         left: 24%;
@@ -275,7 +276,7 @@ html {
         }
     
     #contactShield:hover {
-        background-image: url("/images/shield3hover.png");
+        background-image: url("/images/colorshield3hover.png");
         background-repeat: no-repeat; 
     }
 
@@ -288,10 +289,10 @@ html {
         background-color: #0000;
         background-image: url("/images/about1.png");
         position: fixed;
-        top: 5%;
-        left: 90%;
-        height: 8%;
-        width: 5%;
+        top: 35px;
+       right: 60px;
+        height: 34px;
+        width: 70px;
         border: none;
         cursor: pointer;
         }
@@ -299,8 +300,8 @@ html {
     #flag4btn:hover {
         background-image: url("/images/about2.png");
         background-repeat: no-repeat;
-        height: 8%;
-        width: 5%;
+        height: 57px;
+        width: 70px;
 
         
     }
@@ -341,10 +342,10 @@ html {
         background-color: #0000;
         background-image: url("/images/colorbacktotop1.png");
         position: fixed;
-        top: 88%;
-        left: 88%;
-        height: 12%;
-        width: 12%;
+        bottom: 5px;
+        right: 30px;
+        height: 95px;
+        width: 116px;
         border: none;
         cursor: pointer;
         transition-duration: 600ms;
@@ -389,7 +390,7 @@ width: 100%;
 
 #aboutMe {
     position: absolute;
-    margin-top:-375%;
+    margin-top:-376.5%;
     margin-left: 10%;
     width:31%;
     
