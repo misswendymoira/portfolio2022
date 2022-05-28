@@ -55,14 +55,15 @@ html {
         background-size:contain;
         background-color: #0000;
         background-image: url("/images/learnMore1.png");
+        background-position: center top;
         position: absolute;
         margin-top: 117%;
         right:67.5%;
         width: 14%;
-        height: 7.5%;
+        height: 9%;
         border: none;
         cursor: pointer;
-        /* border: 3px solid black; */
+        border: 3px solid black;
         }
 
     
@@ -91,46 +92,34 @@ html {
 
      #aboutOverlayContainer {
          display:flex;
-        position:relative;
+         position:relative;
          margin-top: 5%;
          margin-left:10%;
          width: 80%;
          height:80%; 
          background-color: #C29596;
          border-radius: 5px;
-         /* border: 3px solid black; */
+         border: 3px solid black;
      }
 
      #aboutOverlayPic {
         position:absolute;
         width:50%;
         height:100%;
-        /* border: 3px solid blue;   */
+        border: 3px solid blue;  
 
      }
       
     #portraitimg {
-        position: relative;
+        position: absolute;
         display:block;
-        max-width:90%;
-        max-height:80%;
+        max-width: 100%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
         border-radius: 5%;
         border: solid 10px white;
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-
-
     } 
 
     #aboutOverlayText{
@@ -264,19 +253,20 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/colorshield3.png");
+        background-image: url("/images/getInTouch1.png");
+        background-position: center top;
         position: absolute;
         margin-top: 330%;
-        left: 24%;
-        height: 5%;
-        width: 5%;
+        right:67.5%;
+        width: 14%;
+        height: 9%;
         border: none;
         cursor: pointer;
-        /* border: 3px solid black; */
+        border: 3px solid black;
         }
     
     #contactShield:hover {
-        background-image: url("/images/colorshield3hover.png");
+        background-image: url("/images/getInTouch2.png");
         background-repeat: no-repeat; 
     }
 
@@ -460,5 +450,16 @@ width: 100%;
     margin-left: 58%;
     width:30%;
      
+}
+
+#copyright {
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
+    /* border: 3px solid black; */
+    text-align: center;
+  
 }
 
