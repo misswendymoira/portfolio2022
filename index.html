@@ -36,10 +36,10 @@
                     
                     
                 </div>
-                <button id="aboutShield" onclick="aboutOn()"></button>
-                <button id=workShield onclick="workOn()"></button>
-                <button id=contactShield onclick="contactOn()"></button>
-                <button id="flag4Shield" onclick="flag4On()"></button>
+                <button id="aboutBanner" onclick="aboutOn()"></button>
+                <button id="workBanner" onclick="workOn()"></button>
+                <button id="artistryBanner" onclick="artistrytOn()"></button>
+                <button id="contactBanner" onclick="contactOn()"></button>
 
                 
 
@@ -52,17 +52,17 @@
                 </div>
 
 
-                <div id="scrollToContact"></div>
+                <div id="scrollToArtistry"></div>
 
-                <div id="contactMe">
-                    <h1>Contact Me</h1>
+                <div id="artistryMe">
+                    <h1>Artistry</h1>
                     <p>this is whatever</p>
                 </div>
 
-                <div id="scrollToFlag4"></div>
+                <div id="scrollToContact"></div>
                 
-                <div id="flag4">
-                    <h1>TBD</h1>
+                <div id="contactMe">
+                    <h1>Contact Me</h1>
                     <p>this is whatever</p>
                 </div>
 
@@ -77,11 +77,11 @@
 
             </button>
 
-            <button id="contact" onclick="contactScroll()">
+            <button id="artistry" onclick="artistryScroll()">
 
             </button>
 
-            <button id="flag4btn" onclick="flag4Scroll()">
+            <button id="contact" onclick="contactScroll()">
 
             </button>
             
@@ -100,10 +100,34 @@
                         <h1 class="overlayH">About Me</h1>
                         <p class="overlayP">Here we will have some fun aencdotes and stories or something. Make it fun and playful, because the "my work" section will contain more info about professional stuff. <br> We want a decent amount of text bu tnot too much.</p>
                     </div>
-                   
                 </div>
-        </div>
+            </div>
 
+            <div id="workOverlay">
+
+                <div id="workOverlayContainer">
+                    <button id="workOverlayClose" onclick="workClose()">
+                    </button>
+                    <div id="workOverlayLinks">
+                        <div id="dontShoot">
+                            <a href="images/DontShootPDXCaseStudy.pdf" target = "_blank">
+                            <img id = "dontShootThmb" src ="images/dontShootThumb.png">
+                            </a>
+                        </div>
+
+                        <div id="nuance">
+                            <a href="images/NuanceCaseStudy.pdf" target = "_blank">
+                            <img id = "nuanceThmb" src ="images/nuanceThumb.png">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div id="workOverlayText">   
+                        <h1 class="overlayH">Project Examples</h1>
+                        <p class="overlayP">Something about works completed and what I enjoy about it.<br><br> While the scope of my whatever varied from x to y to z,my main focus was this and that. </p>
+                    </div>
+                </div>
+            </div>
         
 
         </div> 

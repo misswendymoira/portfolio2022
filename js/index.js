@@ -17,14 +17,14 @@ function workScroll() {
 }
 
 
-function flag4Scroll() {
-    const fl4scr = document.getElementById("scrollToFlag4");
-    fl4scr.scrollIntoView();
-}
-
 function contactScroll() {
     const cntscr = document.getElementById("scrollToContact");
     cntscr.scrollIntoView();
+}
+
+function artistryScroll() {
+    const artscr = document.getElementById("scrollToArtistry");
+    artscr.scrollIntoView();
 }
 
 function aboutOn() {
@@ -35,3 +35,12 @@ function aboutOn() {
   function aboutClose() {
     document.getElementById("aboutOverlay").style.display = "none"; 
   }
+
+function workOn() {
+document.getElementById("workOverlay").style.display = "block";
+}
+
+function workClose() {
+    document.getElementById("workOverlay").style.display = "none"; 
+  }
+  

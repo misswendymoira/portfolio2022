@@ -50,7 +50,7 @@ html {
         
     }
 
-    #aboutShield {
+    #aboutBanner {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
@@ -68,7 +68,7 @@ html {
 
     
     
-    #aboutShield:hover {
+    #aboutBanner:hover {
         background-image: url("/images/learnMore2.png");
         background-repeat: no-repeat; 
     
@@ -187,28 +187,6 @@ html {
         
     }
 
-    #workShield {
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-color: #0000;
-        background-image: url("/images/seeExamples1.png");
-        position: absolute;
-        margin-top: 187%;
-        right: 19%;
-        width: 14%;
-        height: 10%;
-        border: none;
-        cursor: pointer;
-        /* border: 3px solid black; */
-        }
-
-    
-    
-    #workShield:hover {
-        background-image: url("/images/seeExamples2.png");
-        background-repeat: no-repeat; 
-    }
-
     #work:active {
         background-image: url("/images/colorwork3.png");
         background-repeat: no-repeat;
@@ -217,14 +195,138 @@ html {
         
     }
 
-    
-
-
-    #contact {
+    #workBanner {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/colorcontact.png");
+        background-image: url("/images/seeExamples1.png");
+        position: absolute;
+        margin-top: 187%;
+        right: 19%;
+        width: 13%;
+        height: 12%;
+        border: none;
+        cursor: pointer;
+        border: 3px solid black;
+        }
+
+    
+    
+    #workBanner:hover {
+        background-image: url("/images/seeExamples2.png");
+        background-repeat: no-repeat; 
+    }
+
+    #workOverlay {
+        position: fixed;
+        display: none;
+        width: 100%; 
+        height: 100%; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:rgba(255,255,255, 0.75);
+    
+        /* background-color: rgba(0,0,0,0.7);  */
+        z-index: 3; 
+        /* border: 3px solid blue; */
+      }
+
+     #workOverlayContainer {
+         display:flex;
+         position:relative;
+         margin-top: 5%;
+         margin-left:10%;
+         width: 80%;
+         height:80%; 
+         background-color: #C88161;
+         border-radius: 5px;
+         border: 3px solid black;
+     }
+
+     #workOverlayText{
+        width:50%;
+        height: 100%;
+        border: 3px solid red;
+        position: absolute;
+        /* margin-left:25%; */
+    }
+
+    /* #workOverlayText .overlayP {
+        margin-top:  0%;
+    } 
+    #workOverlayText .overlayH {
+        margin-top:  2%;
+    }  */
+
+     #workOverlayLinks {
+        position:absolute;
+        width:50%;
+        height:100%;
+        margin-left: 50%;
+        border: 3px solid blue;  
+     }
+
+     #workOverlayClose {
+        background-image: url("/images/x.png");
+        background-repeat: no-repeat;
+        background-color: #0000;
+        background-size: contain;
+        position: relative;
+        width: 4%;
+        height: 4%;
+        border: none;
+        z-index: 4;
+        left: 96%;
+        top: 1%;
+    }
+
+    #workOverlayClose:hover {
+        background-image: url("/images/xhover.png");
+        cursor: pointer;
+    }
+
+    #dontShootThmb {
+        position: absolute;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+        border: 25px solid transparent;
+        border-radius: 2%;
+        border-image: none;
+    }
+
+    #dontShootThmb:hover {
+        border-image: url(/images/thumbBorder.png) 500 stretch;
+        
+    }
+
+    #nuanceThmb {
+        position: absolute;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 60%;
+        border: 25px solid transparent;
+        border-radius: 2%;
+        border-image: none;
+    }
+
+    #nuanceThmb:hover {
+        border-image: url(/images/thumbBorder.png) 500 stretch;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+
+
+    
+
+
+    #artistry {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorartistry.png");
         position: fixed;
         top: 35px;
         right: 140px;
@@ -234,11 +336,66 @@ html {
         cursor: pointer;
         }
         
+    #artistry:hover {
+        background-image: url("/images/colorartistry2.png");
+        background-repeat: no-repeat;
+        height: 57px;
+        width: 70px;
+    }
+
+    #artistry:active {
+        background-image: url("/images/colorartistry3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #artistryBanner {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/viewgallery1.png");
+        background-position: center top;
+        position: absolute;
+        margin-top: 329.5%;
+        right:67.5%;
+        width: 14%;
+        height: 11%;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid black; */
+        }
+    
+    #artistryBanner:hover {
+        background-image: url("/images/viewgallery2.png");
+        background-repeat: no-repeat; 
+    }
+
+
+
+
+    #contact {
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #0000;
+        background-image: url("/images/colorcontact.png");
+        position: fixed;
+        top: 35px;
+       right: 60px;
+        height: 34px;
+        width: 70px;
+        border: none;
+        cursor: pointer;
+        }
+    
     #contact:hover {
         background-image: url("/images/colorcontact2.png");
         background-repeat: no-repeat;
         height: 57px;
         width: 70px;
+
+        
     }
 
     #contact:active {
@@ -249,78 +406,23 @@ html {
         
     }
 
-    #contactShield {
+    #contactBanner {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
         background-image: url("/images/getInTouch1.png");
-        background-position: center top;
-        position: absolute;
-        margin-top: 330%;
-        right:67.5%;
-        width: 14%;
-        height: 9%;
-        border: none;
-        cursor: pointer;
-        border: 3px solid black;
-        }
-    
-    #contactShield:hover {
-        background-image: url("/images/getInTouch2.png");
-        background-repeat: no-repeat; 
-    }
-
-
-
-
-    #flag4btn {
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-color: #0000;
-        background-image: url("/images/about1.png");
-        position: fixed;
-        top: 35px;
-       right: 60px;
-        height: 34px;
-        width: 70px;
-        border: none;
-        cursor: pointer;
-        }
-    
-    #flag4btn:hover {
-        background-image: url("/images/about2.png");
-        background-repeat: no-repeat;
-        height: 57px;
-        width: 70px;
-
-        
-    }
-
-    #flag4btn:active {
-        background-image: url("/images/about3.png");
-        background-repeat: no-repeat;
-        transition-duration: 600ms;
-
-        
-    }
-
-    #flag4Shield {
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-color: #0000;
-        background-image: url("/images/shield2.png");
         position: absolute;
         margin-top: 401%;
-        left: 71.5%;
-        height: 5%;
-        width: 5%;
+        right: 19%;
+        width: 14%;
+        height: 9%;
         border: none;
         cursor: pointer;
         /* border: 3px solid black; */
     }
 
-    #flag4Shield:hover {
-        background-image: url("/images/shield2hover.png");
+    #contactBanner:hover {
+        background-image: url("/images/getInTouch2.png");
         background-repeat: no-repeat; 
     }
 
@@ -334,8 +436,8 @@ html {
         position: fixed;
         bottom: 5px;
         right: 30px;
-        height: 95px;
-        width: 116px;
+        height: 120px;
+        width: 139px;
         border: none;
         cursor: pointer;
         transition-duration: 600ms;
@@ -416,7 +518,7 @@ width: 100%;
     
 }
 
-#contactMe {
+#ArtistryMe {
     width: 30%;
     position: absolute;
     margin-left: 10%;
@@ -426,7 +528,7 @@ width: 100%;
     
 }
 
-#scrollToContact {
+#scrollToArtistry {
     position: absolute;
     margin-top:-168.5%;
     margin-left: 10%;
@@ -434,7 +536,7 @@ width: 100%;
      
 }
 
-#flag4 {
+#contactMe {
     position: absolute;
     margin-top:-91%;
     margin-left: 58%;
@@ -444,7 +546,7 @@ width: 100%;
     
 }
 
-#scrollToFlag4 {
+#scrollToContact {
     position: absolute;
     margin-top:-97.5%;
     margin-left: 58%;
