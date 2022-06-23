@@ -260,13 +260,32 @@ html {
         margin-top:  2%;
     }  */
 
-     #workOverlayLinks {
-        position:absolute;
+     /* #workOverlayLinks {
+        position:relative;
         width:50%;
-        height:100%;
+        height:50%;
         margin-left: 50%;
-        /* border: 3px solid blue;   */
-     }
+        border: 3px solid blue;  
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70vh;
+      } */
+      
+      /* .caseStudies {
+        position: absolute;
+        flex: 1;
+        /* height: 100%; */
+        /* width: 50%; */
+        /* background-position: center; */
+        /* background-size: contain; */
+        /* background-repeat: none; */
+        /* transition: flex 0.8s ease; 
+      } */ 
+    
+      /* .caseStudies:hover {
+      flex: 7;
+      } */
 
      #workOverlayClose {
         background-image: url("/images/x.png");
@@ -288,36 +307,74 @@ html {
     }
 
     #dontShootThmb {
-        position: absolute;
+        display: flex;
+        flex: 1;
         width: 50%;
-        margin-left: 25%;
-        margin-top: 5%;
-        border: 25px solid transparent;
-        border-radius: 2%;
-        border-image: none;
+        /* border: 25px solid transparent; */
+        /* border-radius: 2%;
+        border-image: none; */
     }
 
-    #dontShootThmb:hover {
+    /* #dontShootThmb:hover {
         border-image: url(/images/thumbBorder.png) 500 stretch;
         
-    }
+    } */
 
     #nuanceThmb {
-        position: absolute;
+        display: flex;
+        flex: 1;
         width: 50%;
-        margin-left: 25%;
-        margin-top: 60%;
-        border: 25px solid transparent;
+       
+        /* border: 25px solid transparent;
         border-radius: 2%;
-        border-image: none;
+        border-image: none; */
     }
 
-    #nuanceThmb:hover {
+    /* #nuanceThmb:hover {
         border-image: url(/images/thumbBorder.png) 500 stretch;
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
-    }
+    } */
 
+    .workContainer{
+        /* padding: 75px 0; */
+        /* margin: 0 auto; */
+        width: 90%;
+        border: 3px solid blue;
+        position: absolute;
+        /* margin-top: 5%; */
+        margin-left: 5%;
+        /* padding: 100px 10px 15px 10px; */
+      }
+      
+      
+      .work-wrap {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70vh;
+      }
+      
+      .project {
+        flex: 1;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        transition: flex 0.8s ease; 
+      }
+    
+      .project:hover {
+      flex: 2;
+      }
+
+      .dontShoot { 
+        background-image: url(/images/dontShootThumb.png);
+      }
+      
+      .nuance { 
+        background-image: url(/images/nuanceThumb.png);
+      }
 
     
 
@@ -408,6 +465,8 @@ html {
         /* border: 3px solid blue; */
       }
 
+      
+
      #galleryOverlayContainer {
          display:flex;
          position:relative;
@@ -434,98 +493,6 @@ html {
     #galleryOverlayText .overlayH {
         margin-top:  2%;
     } 
-
-    /* * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-
-.gallerySlideshow {
-  max-width: 1000px;
-  position: absolute;
-  margin: auto;
-  border: 3px solid blue;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-Number text (1/3 etc)
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #2D3123;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #ffffff;
-}
-
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-.galleryImg {
-    position: relative;
-} */
-
   
   .galleryContainer{
     /* padding: 75px 0; */
