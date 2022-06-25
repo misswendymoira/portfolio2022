@@ -84,6 +84,7 @@ html {
         right: 0;
         bottom: 0;
         background-color:rgba(255,255,255, 0.75);
+        
     
         /* background-color: rgba(0,0,0,0.7);  */
         z-index: 3; 
@@ -99,34 +100,47 @@ html {
          height:80%; 
          background-color: #C29596;
          border-radius: 5px;
-         border: 3px solid black;
+         /* border: 3px solid black; */
+         
+         
      }
 
      #aboutOverlayPic {
         position:absolute;
         width:50%;
         height:100%;
-        border: 3px solid blue;  
+        /* border: 3px solid blue;  */
+        overflow-y: scroll; 
+        
 
      }
       
     #portraitimg {
         position: absolute;
         display:block;
-        max-width: 100%;
+        /* max-width: 100%;
         height: auto;
         margin-left: auto;
-        margin-right: auto;
-        margin-top: 10%;
+        margin-right: auto; */
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 2%;
         border-radius: 5%;
         border: solid 10px white;
     } 
 
     #aboutOverlayText{
-        width:50%;
+        /* width:50%; */
+        /* border: 3px solid red; */
+        /* position: absolute;
+        margin-left:47%; */
+        width:45%;
+        height: 100%;
         /* border: 3px solid red; */
         position: absolute;
-        margin-left:47%;
+        overflow-y: scroll;
+        margin-left: 50%;
+        /* margin-left:25%; */
         
     }
 
@@ -242,14 +256,17 @@ html {
          height:80%;
          background-color: #C88161;
          border-radius: 5px;
+         
          /* border: 3px solid black; */
      }
 
      #workOverlayText{
-        width:50%;
+        width:45%;
         height: 100%;
         /* border: 3px solid red; */
         position: absolute;
+        overflow-y: scroll;
+        margin-left: 5%;
         /* margin-left:25%; */
     }
 
@@ -265,6 +282,7 @@ html {
         width:50%;
         height:100%;
         margin-left: 50%;
+        overflow-y: scroll;
         /* border: 3px solid blue;   */
      }
 
@@ -289,8 +307,8 @@ html {
 
     #dontShootThmb {
         position: absolute;
-        width: 50%;
-        margin-left: 25%;
+        width: 80%;
+        margin-left: 5%;
         margin-top: 5%;
         border: 25px solid transparent;
         border-radius: 2%;
@@ -299,14 +317,14 @@ html {
 
     #dontShootThmb:hover {
         border-image: url(/images/thumbBorder.png) 500 stretch;
-        
+        transition: 0.2s ease-in-out;        
     }
 
     #nuanceThmb {
         position: absolute;
-        width: 50%;
-        margin-left: 25%;
-        margin-top: 60%;
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 85%;
         border: 25px solid transparent;
         border-radius: 2%;
         border-image: none;
@@ -402,6 +420,7 @@ html {
         right: 0;
         bottom: 0;
         background-color:rgba(255,255,255, 0.75);
+        overflow-y: scroll;
     
         /* background-color: rgba(0,0,0,0.7);  */
         z-index: 3; 
@@ -530,10 +549,12 @@ Number text (1/3 etc)
   .galleryContainer{
     /* padding: 75px 0; */
     /* margin: 0 auto; */
-    width: 100%;
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 10%;
     border: 3px solid blue;
     position: absolute;
-    /* margin-top: 5%; */
     /* padding: 100px 10px 15px 10px; */
   }
   
@@ -541,8 +562,9 @@ Number text (1/3 etc)
   .gallery-wrap {
     display: flex;
     flex-direction: row;
+    position: absolute;
     width: 100%;
-    height: 70vh;
+    height: 100%;
   }
   
   .item {
@@ -556,30 +578,46 @@ Number text (1/3 etc)
   }
 
   .item:hover {
-  flex: 7;
+  flex: 20;
   }
     
   
   .item-1 { 
-    background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
+    background-image: url(/images/IMG_9260.png);
   }
   
   .item-2 { 
-    background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
+    background-image: url(/images/IMG_9261.png);
   }
   
   .item-3 { 
-    background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
+    background-image: url(/images/IMG_9262.png);
   }
   
   .item-4 { 
-    background-image: url(/images/dontShootThumb.png);
+    background-image: url(/images/IMG_9263.png);
   }
   
   .item-5 { 
-    background-image: url(/images/nuanceThumb.png);
+    background-image: url(/images/IMG_9264.png);
   }
   
+  .item-6 { 
+    background-image: url(/images/IMG_9265.png);
+  }
+
+  .item-7 { 
+    background-image: url(/images/IMG_9267.png);
+  }
+
+  .item-8 { 
+    background-image: url(/images/IMG_9264.png);
+  }
+
+  .item-9 { 
+    background-image: url(/images/IMG_9264.png);
+  }
+
   /* .social{
     position: absolute;
     right: 35px;
