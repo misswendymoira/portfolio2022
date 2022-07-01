@@ -52,29 +52,12 @@ function galleryClose() {
     document.getElementById("galleryOverlay").style.display = "none"; 
     }
 
-// let slideIndex = 1;
-// showSlides(slideIndex);
+function contactOn() {
+document.getElementById("contactOverlay").style.display = "block";
+}
 
-// function plusSlides(n) {
-//     showSlides(slideIndex += n);
-// }
+function contactClose() {
+    document.getElementById("contactOverlay").style.display = "none"; 
+    }
 
-// function currentSlide(n) {
-//     showSlides(slideIndex = n);
-// }
 
-// function showSlides(n) {
-//     let i;
-//     let slides = document.getElementsByClassName("galleryPics");
-//     let dots = document.getElementsByClassName("dot");
-//     if (n > slides.length) {slideIndex = 1}    
-//     if (n < 1) {slideIndex = slides.length}
-//     for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";  
-//     }
-//     for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" active", "");
-//     }
-//     slides[slideIndex-1].style.display = "block";  
-//     dots[slideIndex-1].className += " active";
-// }

@@ -17,53 +17,44 @@
             
 
             <div class="bg-container">
-            
-                <!-- <img id="castle" src="images/castleslice2.png" media="(min-width: 601px)"> -->
 
                 <picture class="castle">
-                    <source srcset="images/mobileslice.png" media="(max-width: 600px)" style="width: 100%">
-                    <source srcset="images/biggercolorslice.png" media="(max-width: 1500px)" style="width: 100%">
-                    <source srcset="images/biggercolorslice.png" style="width: 100%">
-                    <img src="images/mobileslice.png" alt="images/castleslice2.png" style="width: 100%">
+                    <img src="images/newCastle.png"  style="width: 100%">
                 </picture>
                 
-
                 <div id="scrollToAbout"></div>
 
                 <div id="aboutMe">
                     <h1>About Me</h1>
-                    <p>Originally hailing from the San Francisco Bay Area where I apprenticed with and worked alongside a professional mural artist, I pivoted to the digital realm upon relocating to Portland, Oregon. <br> I am an enthusiastic problem-solver who will bring pixel perfection and a dollop of charisma to any project, team, or tea party!    </p>
-                    
-                    
+                    <p>Originally hailing from the San Francisco Bay Area where I apprenticed with and worked alongside a professional mural artist, I pivoted to the digital realm upon relocating to Portland, Oregon. <br><br>While I do love a whimsical <br>medieval motif, you'll find no damsel in distress here!</p>  
                 </div>
+
                 <button id="aboutBanner" onclick="aboutOn()"></button>
                 <button id="workBanner" onclick="workOn()"></button>
                 <button id="artistryBanner" onclick="artistryOn()"></button>
                 <button id="contactBanner" onclick="contactOn()"></button>
 
-                
-
-
                 <div id="scrollToWork"></div>
 
                 <div id="myWork">
                     <h1>My Work</h1>
-                    <p>this is whatever</p>
+                    <p>I have been fortunate to have the opportunity to work with numerous <br>teams on a variety of projects.<br><br>Here are some examples of work <br>I have contributed to which I feel are particularly impactful. 
+                    </p>
                 </div>
 
 
                 <div id="scrollToArtistry"></div>
 
                 <div id="artistryMe">
-                    <h1>Artistry</h1>
-                    <p>this is whatever</p>
+                    <h1>Resume</h1>
+                    <p>Here you will find my resume consisting of experiences relevant to UI deisgn.<br><br>For inquiries regarding my 10+ years of customer service, my artistic pursuits, or my experiences working in management within a corporate setting, feel free to reach out to me via email or carrier pigeon! </p>
                 </div>
 
                 <div id="scrollToContact"></div>
                 
                 <div id="contactMe">
                     <h1>Contact Me</h1>
-                    <p>this is whatever</p>
+                    <p>Like what you see?<br><br> Have any questions?<br><br> Know where that darn dragon <br>flew off to this time? <br><br>Let's chat!</p>
                 </div>
 
                 <p id="copyright">©2022 Wendy Davenport</p>
@@ -91,14 +82,14 @@
             <div id="aboutOverlay">
 
                 <div id="aboutOverlayContainer">
-                    <button id="aboutOverlayClose" onclick="aboutClose()">
+                    <button class="closeButton" id="aboutOverlayClose" onclick="aboutClose()">
                     </button>
                     <div id="aboutOverlayPic">
-                        <img src="images/portrait.jpg" id="portraitimg" >
+                        <img src="images/newPortrait.png" id="portraitimg" >
                     </div>
                     <div id="aboutOverlayText">   
                         <h1 class="overlayH">About Me</h1>
-                        <p class="overlayP">Here we will have some fun aencdotes and stories or something. Make it fun and playful, because the "my work" section will contain more info about professional stuff. <br> We want a decent amount of text bu tnot too much.</p>
+                        <p class="overlayP">Once upon a time, there was a little girl named Wendy who loved to paint.<br><br> (That's me!)<br><br>I was eight years old when I began painting murals for restaurants, offices, people's homes, and even public schools. My work can be found all over Northern California!<br><br>However, living in the San Francisco Bay Area was very expensive, so when I was fifteen, I also took on my first "regular" job. While I have continued to paint through the years, I have also garnered an impressive professional resume, ranging from kayaking instructor to manager in a corporate setting.<br><br>I have now begun a new chapter here in Portland, Oregon, where I can integrate my years of professional experience with my passion for design!</p>
                     </div>
                 </div>
             </div>
@@ -106,11 +97,11 @@
             <div id="workOverlay">
 
                 <div id="workOverlayContainer">
-                    <button id="workOverlayClose" onclick="workClose()">
+                    <button class="closeButton" id="workOverlayClose" onclick="workClose()">
                     </button>
                     <div id="workOverlayLinks">
                         <div id="dontShoot">
-                            <a href="images/DontShootPDXCaseStudy.pdf" target = "_blank">
+                            <a href="images/DontShootPDXCaseStudy.pdf" target = "_blank" >
                             <img id = "dontShootThmb" src ="images/dontShootThumb.png">
                             </a>
                         </div>
@@ -124,21 +115,30 @@
                     </div>
                     <div id="workOverlayText">   
                         <h1 class="overlayH">Project Examples</h1>
-                        <p class="overlayP">I have experience with all aspects of design, from research and ideation to user testing and data synthesization. However, my greatest passion lies with UI, specifically with an emphasis on interaction design. <br><br> While the scope of my whatever varied from x to y to z,my main focus was this and that.<br><br>Here, you will find examples of my work form a few of my favorite projects!</p>
+                        <p class="overlayP">I have experience with all aspects of UX, from research and ideation to user testing and data synthesization. However, my backround has been centered around artistic pursuits, which have greatly influenced my design capabilities, leading to a newfound passion for UI.<br><br> When working in team settings, I am often assigned supervision of high-fidelity prototypes, as I have knowledge regarding HTML, CSS, and Javascript, allowing me to ensure pixel-perfection which will inform how the development team translates prototypes into functional, live web pages.<br><br>As I continue to gain knowledge and experience, <br>I will share more projects and insights here! </p>
                     </div>
                 </div>
             </div>
 
             <div id="galleryOverlay">
-
                 <div id="galleryOverlayContainer">
-                    <button id="galleryOverlayClose" onclick="galleryClose()">
+                    <button class="closeButton" id="galleryOverlayClose" onclick="galleryClose()">
                     </button>
-                    <div id="galleryOverlayText">   
-                        <h1 class="overlayH">Gallery</h1>
-                        <p class="overlayP">An explanation of having worked as a mural painter and artist blah blah blah.</p>
+                    <div id="resumePicContainer">
+                        <a href="images/PublicPortfolioResume.pdf" download>
+                            <img id = "downloadResume" src ="images/download1.png" onmouseover=src="images/download2.png" onmouseout=src="images/download1.png">
+                        </a>
+                        <img id="resumePic" src="images/PublicPortfolioResume.png" >
                     </div>
+                    <div id="galleryOverlayText">   
+                        <h1 id="resumeH">My Resume</h1>
+                    </div>
+                </div> 
+            </div>
+            
+            <div id="contactOverlay">
 
+<<<<<<< Updated upstream
                     <div class="galleryContainer">
                         
                         <div class="gallery-wrap">
@@ -153,10 +153,20 @@
                             <div class="item item-9"></div>
                         </div>
                         
+=======
+                <div id="contactOverlayContainer">
+                    <button class="closeButton" id="contactOverlayClose" onclick="contactClose()">
+                    </button>
+                    <div id="contactOverlayPic">
+                        <img src="images/pigeon.png" id="windowPic" >
+                    </div>
+                    <div id="contactOverlayText">   
+                        <h1 class="overlayH">Contact Me</h1>
+                        <p class="overlayP">Email: <a href="mailto: wendyyvonnedavenport@gmail.com" id="emailLink">WendyYvonneDavenport@gmail.com</a><br><br><br><br><br>Linkedin: <a href="https://www.linkedin.com/in/wendy-davenport/" target="_blank" id="linkedinlink">Linkedin.com/in/Wendy-Davenport</a><br><br><br><br><br>Carrier Pigeon unavailable until a replacement can be found for the pigeon who was turned into a prince by some princess's kiss... Why was she kissing pigeons in the first place...?</p>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
-        
 
         </div> 
         
